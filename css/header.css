@@ -1,5 +1,8 @@
 .header {
-    background-color: #ffffff;
+    background: linear-gradient(
+        var(--primer-color),
+        var(--extra-uno-color)
+        );
     padding: 10px 0;
 }
 
@@ -38,14 +41,14 @@
 
 .links-formato{
     text-transform: uppercase;
-    color: #000000;
+    color: var(--texto-link-nav);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 .links-formato:hover{
-    color: #c78c19;
+    color: var(--cuarto-color);
     text-decoration: underline;
 }
 

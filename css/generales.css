@@ -1,3 +1,52 @@
+:root{
+
+    /* extra colores */
+
+    --extra-letras-link:#c78c19;
+
+    --background-fondo-uno: #d3dafb;
+
+    /* colores log mcp */
+
+    --primer-color: #44a1dc;
+    --segundo-color: #714c9a;
+    --tercer-color: #b34778;
+    --cuarto-color: #d43e4a;
+
+    --extra-uno-color: #8cccfc;
+    --extra-dos-color: #a3d2ef;
+
+    /* header */
+
+    --texto-link-nav: #1e1515;
+
+    /* footer */
+    --background-footer: #774c9b ;
+    --fuente-footer-letra: #e8dede;
+
+/* - Borda */
+    --border-cabecera-mobile: #103D4A;
+
+/* - Botón */
+    --boton-rojo-oscuro: #8a2a2a;
+    /* --boton-rojo: #B72E2E; */
+
+/* - Fuente */
+    --fuente-ceniza-claro: #666666;
+    --fuente-ceniza-oscuro: #4F4C4C;
+
+/* - Planes */
+    --planes-card-start: #035A76;
+    --planes-card-ultra: #690F8E;
+    --planes-card-mega: #B00024;
+
+/* - Enlace */
+    --fuente-enlace: #0006FF;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
 .titulos {
     font-size: 2rem;
     text-align: center;
@@ -42,4 +91,10 @@
     padding: 1rem 2rem;
     border:  1px solid red;
     border-radius: 5px;
+}
+
+/* estilos de texto */
+
+.alinear-textos{
+    text-align: center;
 }

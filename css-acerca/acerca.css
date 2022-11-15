@@ -1,0 +1,7 @@
+.imagen__banner--acerca{
+    background: url(../imagenes/galeria/fin_usac.jpg)
+    no-repeat
+    center/cover;
+    height: calc(100vh - 158px);
+    width: 100%;
+}
