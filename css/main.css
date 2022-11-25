@@ -188,14 +188,19 @@ body{
 }
 
 @media screen and (max-width: 375px) {
-    .actividades__container__items, .areas__container__items {
+
+    .main{
+        padding: 0;
+    }
+
+    .actividades__item, .areas__item {
         min-width: 280px;
         max-width: 300px;
         margin: 0;
         padding: 0;
     }
 
-    .actividades__descripcion, .areas__descripcion {
+    .actividades__item__descripcion, .areas__item__descripcion {
         width: 300px;
         grid-area: descripcion;
         text-align: justify;
