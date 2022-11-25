@@ -11,32 +11,28 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/style.css">
+        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
-    
     <body>
-
         <header class="header">
             <div class="header__container">                
-                <div class="header__container-uno">
+                <div class="header__container__imagen">
                     <img src="imagenes/mcp_guatemala.png" class="header__container__imagen-logo">
                 </div>
                 
-                <div class="header__container-dos">
+                <div class="header__container__nav">
                     <nav>
                         <ul class="header__nav">
-                            <li class="header__nav__link"> <a class="links-formato" href="index.html"> Inicio </a> </li>
-                            <li class="header__nav__link"> <a class="links-formato" href="acercade.html"> Acerca de </a> </li>
-                            <li class="header__nav__link"> <a class="links-formato" href="recursos.html"> Recursos </a> </li>
-                            <li class="header__nav__link"> <a class="links-formato" href="contacto.html"> Contacto </a> </li>
-                            
+                            <li class="header__nav__link"> <a class="header__links-formato" href="index.html"> Inicio </a> </li>
+                            <li class="header__nav__link"> <a class="header__links-formato" href="acercade.html"> Acerca de </a> </li>
+                            <li class="header__nav__link"> <a class="header__links-formato" href="recursos.html"> Recursos </a> </li>
+                            <li class="header__nav__link"> <a class="header__links-formato" href="contacto.html"> Contacto </a> </li>
                         </ul>
                     </nav>
                 </div>
-
             </div>
         </header>
 
@@ -44,95 +40,80 @@
         </div>
 
         <main class="main">
-            <section class="principal">
-                <div class="container">
-                    <div class="principal__container">
-                        <h2 class="principal__titulo titulos"> Somos MCP Guatemala </h2>
-                        
-                        <p class="texto-parrafo interline"> Ubicados en la sede USAC Campus Central, MCP Guatemala es un Ministerio de apoyo a estudiantes y profesionales Adventistas en Escuelas y Universidades no Adventistas. Inicio sus actividades aqui en Guatemala en el 2016. </p>
-                        
-                        <p class="texto-parrafo">En MCP buscamos inspirar a los adventistas del 7° día para que sean discípulos de Jesús y compartan el evangelio eterno en:
-                        </p>
-                    
-                        <!-- <p class="titulos__medios">El Campus</p>
-                        <p class="titulos__medios">La Iglesia</p>
-                        <p class="titulos__medios">La Comunidad</p> -->
-                    
-                        <div class="areas__container">
-                            <div class="areas__container__items">
-                                <h2 class="areas__titulos titulos__medios">El Campus</h2>
-                                <p class="areas__items__imagenes areas__imagen__uno"></p>
-                                <p class="areas__descripcion texto-parrafo">Ambiente en el cual los estudiantes puedan alabar y confraternizar con otros que comparten objetivos y metas comunes en la vida.</p>
-                            </div>
-                            <div class="areas__container__items">
-                                <h2 class="areas__titulos titulos__medios">La iglesia</h2>
-                                <p class="areas__items__imagenes areas__imagen__dos"></p>
-                                <p class="areas__descripcion texto-parrafo">Lugar donde los estudiantes son bienvenidos y se unen a la misión y al servicio.</p>
-                            </div>
-                            <div class="areas__container__items ">
-                                <h2 class="areas__titulos titulos__medios">La comunidad</h2>
-                                <p class="areas__items__imagenes areas__imagen__tres"></p>
-                                <p class="areas__descripcion texto-parrafo alinear-textos">
-                                    Construir la comunidad. <br>
-                                    Establecer la comunidad. <br>
-                                    Transformar la comunidad</p>
-                            </div>
-                        </div>
-                    
-                    </div>
+            <div class="mcpGuatemala__container container">
+                <h2 class="guatemala__titulo titulos"> MCP Guatemala </h2>
+                
+                <p class="texto-parrafo interline"> Ubicados en la sede USAC Campus Central, MCP Guatemala es un Ministerio de apoyo a estudiantes y profesionales Adventistas en Escuelas y Universidades no Adventistas. Inicio sus actividades aqui en Guatemala en el 2016. </p>
+                
+                <p class="texto-parrafo">En MCP buscamos inspirar a los adventistas del 7° día para que sean discípulos de Jesús y compartan el evangelio eterno en:
+                </p>
+            </div>
+
+            <div class="areas__container container">
+                <div class="areas__item">
+                    <h2 class="areas__item__titulo titulos__medios">El Campus</h2>
+                    <p class="areas__item__imagenes areas__imagen__uno"></p>
+                    <p class="areas__item__descripcion texto-parrafo">Ambiente en el cual los estudiantes puedan alabar y confraternizar con otros que comparten objetivos y metas comunes en la vida.</p>
                 </div>
-            </section>
+                <div class="areas__item">
+                    <h2 class="areas__item__titulo titulos__medios">La iglesia</h2>
+                    <p class="areas__item__imagenes areas__imagen__dos"></p>
+                    <p class="areas__item__descripcion texto-parrafo">Lugar donde los estudiantes son bienvenidos y se unen a la misión y al servicio.</p>
+                </div>
+                <div class="areas__item">
+                    <h2 class="areas__item__titulo titulos__medios">La comunidad</h2>
+                    <p class="areas__item__imagenes areas__imagen__tres"></p>
+                    <p class="areas__item__descripcion texto-parrafo alinear-textos">
+                        Construir la comunidad. <br>
+                        Establecer la comunidad. <br>
+                        Transformar la comunidad</p>
+                </div>
+            </div>
 
             <section class="actividades container">
                 <h2 class="titulos"> Actividades </h2>
-                <p class="actividades__descripcion__general texto-parrafo">Actualmente realizamos las siguientes actividades.</p>
-                    <div class="actividades__container">
-                        <div class="actividades__container__items">
-                            <h2 class="actividades__titulos titulos__medios">Reuniones semanales virtuales</h2>
-                            <p class="actividades__items__imagenes actividades__imagen__uno"></p>
-                            <p class="actividades__descripcion texto-parrafo">Cada Jueves a las 7:00 p.m realizamos nuestras reuniones, donde compartimos de la palabra de Dios </p>
-                        </div>
-                        <div class="actividades__container__items">
-                            <h2 class="actividades__titulos titulos__medios">Visitas a iglesias</h2>
-                            <p class="actividades__items__imagenes actividades__imagen__dos"></p>
-                            <p class="actividades__descripcion texto-parrafo">Invitaciones que recibimos de las iglesias. Esperamos que nos invites a la tuya.</p>
-                        </div>
-                        <div class="actividades__container__items">
-                            <h2 class="actividades__titulos titulos__medios">Fin de semana universitario</h2>
-                            <p class="actividades__items__imagenes actividades__imagen__tres"></p>
-                            <p class="actividades__descripcion texto-parrafo">Cada tercer fin de semana del mes de Octubre celebramos nuestro Fin de Semana Universitario, para jovenes y profesionales adventistas.</p>
-                        </div>
+                <p class="actividades__descripcion texto-parrafo">Actualmente realizamos las siguientes actividades.</p>
+
+                <div class="actividades__container ">
+                    <div class="actividades__item">
+                        <h2 class="actividades__item__titulo titulos__medios">Reuniones semanales virtuales</h2>
+                        <p class="actividades__item__imagenes actividades__imagen__uno"></p>
+                        <p class="actividades__item__descripcion texto-parrafo">Cada Jueves a las 7:00 p.m realizamos nuestras reuniones, donde compartimos de la palabra de Dios </p>
                     </div>
+                    <div class="actividades__item">
+                        <h2 class="actividades__item__titulo titulos__medios">Visitas a iglesias</h2>
+                        <p class="actividades__item__imagenes actividades__imagen__dos"></p>
+                        <p class="actividades__item__descripcion texto-parrafo">Invitaciones que recibimos de las iglesias. Esperamos que nos invites a la tuya.</p>
+                    </div>
+                    <div class="actividades__item">
+                        <h2 class="actividades__item__titulo titulos__medios">Fin de semana universitario</h2>
+                        <p class="actividades__items__imagenes actividades__imagen__tres"></p>
+                        <p class="actividades__item__descripcion texto-parrafo">Cada tercer fin de semana del mes de Octubre celebramos nuestro Fin de Semana Universitario, para jovenes y profesionales adventistas.</p>
+                    </div>
+                </div>
             </section>
 
-            <section class="sobre-mcp container espacio-fondo__flex">
-
+            <section class="sobreMcp container espacio-fondo__flex">
                 <h2 class="titulos">¿Que es MCP?</h2>
-
                 <p class="texto-parrafo">Ministerio en los Campus Públicos y Privados, se  encarga de planificar, promover y apoyar iniciativas diseñadas para satisfacer las necesidades de discipulado de los estudiantes, académicos y profesionales adventistas, en instituciones educativas fuera de la iglesia adventista.</p>
-
-                <div class="sobre-mcp__proposito">
-                    <h2 class="titulos">Proposito</h2>
-                    <p class="texto-parrafo">Ofrecer redes de apoyo a universitarios para que permanezcan en la iglesia. Dándole identidad y redes de protección contra las crecientes influencias mundanas, buscando estén enfocados en la Palabra de Dios y en el servicio a otros, tanto en la iglesia como en la comunidad.</p>
-
-                </div>
-
+                <h2 class="titulos">Proposito</h2>
+                <p class="texto-parrafo">Ofrecer redes de apoyo a universitarios para que permanezcan en la iglesia. Dándole identidad y redes de protección contra las crecientes influencias mundanas, buscando estén enfocados en la Palabra de Dios y en el servicio a otros, tanto en la iglesia como en la comunidad.</p>
             </section>
 
             <section class="mcp__container">
 
                 <h2 class="titulos">MCP</h2>
 
-                <div class="mcp__container__somos">
-                    <div class="mcp__somos__items espacio-fondo__flex">
-                        <h3 class="titulos">Mision</h3>
+                <div class="mcp__container container">
+                    <div class="mcp__items espacio-fondo__flex">
+                        <h3 class="titulos">Misión</h3>
                         <p class="texto-parrafo">Inspirar a los estudiantes Adventistas del Séptimo Día para ser discípulos de Jesús y habilitarlos para compartir el evangelio eterno en su plantel educativo.</p>
                     </div>
-                    <div class="mcp__somos__items espacio-fondo__flex">
+                    <div class="mcp__items espacio-fondo__flex">
                         <h3 class="titulos">Vision</h3>
                         <p class="texto-parrafo">Discípulos con identidad, líderes con visión y compasión, embajadores, con una misión de servicio para cumplir en su iglesia, su institución académica, y el mundo.</p>
                     </div>
-                    <div class="mcp__somos__items espacio-fondo__flex">
+                    <div class="mcp__items espacio-fondo__flex">
                         <h3 class="titulos">Lema</h3>
                         <p class="texto-parrafo item__lema">
                             Sigue a Jesús <br>
@@ -162,41 +143,38 @@
     <footer class="footer">
         <div class="footer__container">
 
-            <div class="footer__container-uno">
-                <div class="footer__ban">
-                    <img src="imagenes/logoMcp.png" alt="" class="footer__logo">
-                    <p class="footer__ban__text texto__footer">MCP Guatemala</p>
+            <div class="footer__container__banner">
+                <div class="footer__banner">
+                    <img src="imagenes/logoMcp.png" alt="" class="footer__banner-logo">
+                    <p class="footer__banner__text texto__footer">MCP Guatemala</p>
                 </div>
                 
-                <div class="footer__container-redes">
+                <div class="footer__container__redes">
                     <nav>
                         <ul class="footer__redes">
-                            <li class="footer__redes_items"><a href="https://www.instagram.com/mcp_guatemala/"><img src="imagenes/iconos/facebook.png" alt="" class="footer__redes__iconos"></a></li>
+                            <li class="footer__redes-items"><a href="https://www.facebook.com/MCPGuatemalaUSAC"><img src="imagenes/iconos/facebook.png" alt="" class="footer__redes-iconos"></a></li>
 
-                            <li class="footer__redes_items"><a href="https://www.facebook.com/MCPGuatemalaUSAC"><img src="imagenes/iconos/instragram.png" alt="" class="footer__redes__iconos"></a></li>
+                            <li class="footer__redes-items"><a href="https://www.instagram.com/mcp_guatemala/"><img src="imagenes/iconos/instragram.png" alt="" class="footer__redes-iconos"></a></li>
 
-                            <li class="footer__redes_items"><a href="https://bit.ly/3E3KiOx"><img src="imagenes/iconos/whatsapp.png" alt="" class="footer__redes__iconos"></a></li>
+                            <li class="footer__redes-items"><a href="https://bit.ly/3E3KiOx"><img src="imagenes/iconos/whatsapp.png" alt="" class="footer__redes-iconos"></a></li>
                         </ul>
                     </nav>
-                </div>
-                
+                </div>    
             </div>
 
-            <div class="footer__container-link">
+            <div class="footer__container__link">
                 <nav>
                     <ul class="footer__nav">
-                        <li class="footer__nav__link"> <a class="footer_links-formato texto__footer" href="#"> Inicio </a> </li>
-                        <li class="footer__nav__link"> <a class="footer_links-formato texto__footer" href="#"> Acerca de </a> </li>
-                        <li class="footer__nav__link"> <a class="footer_links-formato texto__footer" href="#"> Recursos </a> </li>
-                        <li class="footer__nav__link"> <a class="footer_links-formato texto__footer" href="#"> Contacto </a> </li>
+                        <li class="footer__nav__link"> <a class="footer__links-formato texto__footer" href="#"> Inicio </a> </li>
+                        <li class="footer__nav__link"> <a class="footer__links-formato texto__footer" href="#"> Acerca de </a> </li>
+                        <li class="footer__nav__link"> <a class="footer__links-formato texto__footer" href="#"> Recursos </a> </li>
+                        <li class="footer__nav__link"> <a class="footer__links-formato texto__footer" href="#"> Contacto </a> </li>
                     </ul>
                 </nav>
             </div>
 
             <p class="copyright texto__footer copyright__tamanio"> Created by: &nbsp; <a href="https://www.linkedin.com/in/luisrecinos502gt/" class="copyright__link copyright__tamanio" > Luis Recinos </a> </p>
-
         </div>
-
     </footer>
 
 </html>

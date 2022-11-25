@@ -1,5 +1,4 @@
 :root{
-
     /* extra colores */
 
     --extra-letras-link:#c78c19;
@@ -13,12 +12,19 @@
     --tercer-color: #b34778;
     --cuarto-color: #d43e4a;
 
+    --paleta-rojo-oscuro: #8a2a2a;
+    --paleta-rojo: #B72E2E; 
+
     --extra-uno-color: #8cccfc;
     --extra-dos-color: #a3d2ef;
+    --extra-tres-color: #8060a3;
+    --extra-cuatro-color: #bc5483;
+    --extra-cinco-color: #bb535b;
 
     /* header */
 
-    --texto-link-nav: #1e1515;
+    /* --texto-link-nav: #1e1515; */
+    --texto-link-nav: #fefefe;
 
     /* footer */
     --background-footer: #774c9b ;
@@ -27,9 +33,9 @@
 /* - Borda */
     --border-cabecera-mobile: #103D4A;
 
-/* - Botón */
-    --boton-rojo-oscuro: #8a2a2a;
-    /* --boton-rojo: #B72E2E; */
+/* - Botónes */
+    --boton-estilo: #0c0c0c;
+    --boton-hover: #fefefe;
 
 /* - Fuente */
     --fuente-ceniza-claro: #666666;
@@ -51,7 +57,7 @@
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    margin: 1rem 0;
+    padding: 1rem 0;
     align-items: center;
 }
 
@@ -62,7 +68,7 @@
     margin: 1rem 0;
 }
 .container {
-    margin: 0 2rem;
+    padding: 0 2rem;
     /* usar solo para los que no tienen flex */
 }
 

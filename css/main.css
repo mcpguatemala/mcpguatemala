@@ -3,24 +3,37 @@ body{
     background: var(--background-fondo-uno);
 }
 
-.principal{
-    padding: 1em 0;
-    background: linear-gradient(
+.main {
+    background: linear-gradient( 60deg,
+        /* var(--primer-color),
+        var(--segundo-color),
+        var(--tercer-color) */
+
+        var(--extra-cuatro-color),
+        var(--extra-tres-color),
+        var(--primer-color),
         var(--extra-uno-color)
-        ,var(--background-fondo-uno));
+        
+
+        );
+
+    /* background:  linear-gradient(var(--background-fondo-uno),var(--extra-uno-color)); */
+    /* background: linear-gradient(var(--extra-uno-color),var(--primer-color)); */
 }
 
 .imagen__banner {
     height: calc(100vh - 150px);
     width: 100%;
     background: url(../imagenes/portada.jpg) no-repeat center/cover ;
+    border-top: 2px solid #000000;
+    padding-bottom: 1.5rem;
 }
 
 .principal__titulo {
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 /* areas / de trabajo MCP */
@@ -37,7 +50,7 @@ body{
     background: url(../imagenes/galeria/comunidad.jpg) no-repeat center/cover;
 }
 
-.areas__container__items .alinear-textos{
+.areas__item .alinear-textos{
     text-align: center;
 }
 
@@ -54,13 +67,13 @@ body{
     flex-wrap: wrap;
 }
 
-.actividades__descripcion__general{
+.actividades__descripcion {
     text-align: center;
 }
 
 /*  tambien estan areas container (seccion anterior) */
 
-.actividades__container__items, .areas__container__items {
+.actividades__item, .areas__item {
     width: 30%;
     min-width: 330px;
     /* para que aplique el wrap */
@@ -81,14 +94,14 @@ body{
     text-align: center;
 }
 
-.actividades__titulos, .areas__titulos {
+.actividades__item__titulo, .areas__item__titulo {
     grid-area: titulo;
     height: 60px;
-    margin: 0 1rem;
+    padding: 0 1rem;
     max-width: 300px;
 }
 
-.actividades__items__imagenes, .areas__items__imagenes {
+.actividades__item__imagenes, .areas__item__imagenes {
     grid-area: imagen;
     width: 100%;
     height: 200px;
@@ -106,7 +119,7 @@ body{
     background: url(../imagenes/galeria/fin_usac_uno.jpg) no-repeat center/cover;
 }
 
-.actividades__descripcion, .areas__descripcion {
+.actividades__item__descripcion, .areas__item__descripcion {
     width: 340px;
     grid-area: descripcion;
     text-align: justify;
@@ -114,19 +127,14 @@ body{
 
 /* MCP */
 
-.mcp__container {
-    width: 100%;
-    background:  linear-gradient(var(--background-fondo-uno),var(--extra-uno-color));
-}
-
-.mcp__container__somos{
+.mcp__container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.mcp__somos__items{
+.mcp__items{
     flex-shrink: 0;
     width: 25%;
     min-width: 250px;
@@ -147,7 +155,6 @@ body{
     align-items: center;
     padding-bottom: 2rem;
     /* var(--extra-uno-color) */
-    background: linear-gradient(var(--extra-uno-color),var(--primer-color));
 }
 
 .contacto__descripcion{
@@ -155,15 +162,15 @@ body{
 }
 
 .contacto__boton {
-    color: blue;
-    border-color: blue;
+    color: var(--boton-estilo);
+    border-color: var(--boton-estilo);
     margin-top: 1.25rem;
     text-decoration: none;
 }
 
 .contacto__boton:hover {
-    color: var(--boton-rojo);
-    border-color: var(--boton-rojo);
+    color: var(--boton-hover);
+    border-color: var(--boton-hover);
 }
 
 @media screen and (max-width: 600px) {
