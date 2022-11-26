@@ -51,6 +51,8 @@
 
     --montserrat: 'Montserrat', sans-serif;
     --open-sans: 'Open Sans', sans-serif;
+
+    --comic-sans: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .titulos {
@@ -59,6 +61,7 @@
     font-weight: bold;
     padding: 1rem 0;
     align-items: center;
+    font-family: var(--comic-sans);
 }
 
 .titulos__medios {
@@ -66,6 +69,7 @@
     text-align: center;
     font-weight: bold;
     margin: 1rem 0;
+    font-family: var(--comic-sans);
 }
 .container {
     padding: 0 2rem;
@@ -76,6 +80,7 @@
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1.5rem;
+    font-family: var(--comic-sans);
 }
 
 .interline {
