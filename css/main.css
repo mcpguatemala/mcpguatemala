@@ -25,9 +25,13 @@ body{
     height: calc(100vh - 150px);
     width: 100%;
     background: url(../imagenes/portada.jpg) no-repeat center/cover ;
+}
+
+.imagen__banner--estilo{
     border-top: 2px solid #000000;
     padding-bottom: 1.5rem;
 }
+
 
 .principal__titulo {
     font-size: 2rem;
@@ -37,6 +41,10 @@ body{
 }
 
 /* areas / de trabajo MCP */
+
+.areas__container{
+    padding-bottom: 1rem;
+}
 
 .areas__imagen__uno {
     background: url(../imagenes/galeria/fin_usac_xela.jpg) no-repeat center/cover;
@@ -89,14 +97,14 @@ body{
     "imagen"
     "descripcion";
     grid-template-columns: auto;
-    grid-template-rows: 60px 210px 50px;
+    grid-template-rows: 80px 210px 100px;
     padding: 0 1rem;
     text-align: center;
+    align-items: center;
 }
 
 .actividades__item__titulo, .areas__item__titulo {
     grid-area: titulo;
-    height: 60px;
     padding: 0 1rem;
     max-width: 300px;
 }
@@ -123,27 +131,6 @@ body{
     width: 340px;
     grid-area: descripcion;
     text-align: justify;
-}
-
-/* MCP */
-
-.mcp__container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.mcp__items{
-    flex-shrink: 0;
-    width: 25%;
-    min-width: 250px;
-    height: 200px;
-    padding: 0.5rem 2rem;
-}
-
-.item__lema {
-    text-align: center;
 }
 
 /* contacto */
@@ -174,14 +161,14 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-    .imagen__banner {
+    .imagen__banner, .imagen__banner--acercaDe {
         width: 100%;
         height: calc(100vh - 400px);
     }
 }
 
 @media screen and (max-width: 400px) {
-    .imagen__banner {
+    .imagen__banner, .imagen__banner--acercaDe {
         width: 100%;
         height: calc(100vh - 500px);
     }
@@ -196,7 +183,7 @@ body{
     .actividades__item, .areas__item {
         min-width: 280px;
         max-width: 300px;
-        margin: 0;
+        margin-bottom: 1rem;
         padding: 0;
     }
 

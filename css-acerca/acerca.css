@@ -1,7 +1,62 @@
-.imagen__banner--acerca{
+.imagen__banner--acercaDe{
     background: url(../imagenes/galeria/fin_usac.jpg)
     no-repeat
     center/cover;
     height: calc(100vh - 158px);
     width: 100%;
+    
+}
+
+.logoMcp__container{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.logoMcp__imagen-significado{
+    width: 75%;
+    min-width: 300px;
+    
+}
+
+/* MCP */
+
+.mcp__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mcp__items{
+    flex-shrink: 0;
+    width: 25%;
+    min-width: 250px;
+    height: 200px;
+    padding: 0.5rem 2rem;
+}
+
+.item__lema {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .imagen__banner--acercaDe {
+        width: 100%;
+        height: calc(100vh - 400px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imagen__banner--acercaDe {
+        width: 100%;
+        height: calc(100vh - 500px);
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .main{
+        padding: 0;
+    }
+
 }
