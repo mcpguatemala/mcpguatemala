@@ -84,9 +84,6 @@ body{
 .actividades__item, .areas__item {
     width: 30%;
     min-width: 330px;
-    /* para que aplique el wrap */
-    height: 350px;
-    /* max-width: 400px; */
 
     justify-content: space-around;
     margin: 1rem 0;
@@ -100,13 +97,11 @@ body{
     grid-template-rows: 80px 210px 100px;
     padding: 0 1rem;
     text-align: center;
-    align-items: center;
 }
 
 .actividades__item__titulo, .areas__item__titulo {
     grid-area: titulo;
     padding: 0 1rem;
-    max-width: 300px;
 }
 
 .actividades__item__imagenes, .areas__item__imagenes {
