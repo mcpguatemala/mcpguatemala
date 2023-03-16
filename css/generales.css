@@ -53,11 +53,13 @@
     --open-sans: 'Open Sans', sans-serif;
 
     --comic-sans: "Comic Sans MS", "Comic Sans", cursive;
-
+    
+    --merriweather: 'Merriweather', serif;
 }
 
 @font-face {
     font-family: 'Comic Sans MS';
+    
     src: url("comic-sans-ms/comici.ttf");
 }
 
@@ -67,7 +69,7 @@
     font-weight: bold;
     padding: 1rem 0;
     align-items: center;
-    font-family: var(--comic-sans);
+    font-family: var(--merriweather);
 }
 
 .titulos__medios {

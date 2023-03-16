@@ -4,32 +4,49 @@ body{
 }
 
 .main {
-    background: linear-gradient( 60deg,
-        /* var(--primer-color),
+    /* background: linear-gradient( 60deg,
+        var(--primer-color),
         var(--segundo-color),
-        var(--tercer-color) */
+        var(--tercer-color),
 
         var(--extra-cuatro-color),
         var(--extra-tres-color),
         var(--primer-color),
         var(--extra-uno-color)
-        
+        ); */
 
-        );
+    background: var(--extra-cuatro-color);
+    background: url(../imagenes/cielo_algodon.jpg) no-repeat center/cover ;
 
+    
     /* background:  linear-gradient(var(--background-fondo-uno),var(--extra-uno-color)); */
     /* background: linear-gradient(var(--extra-uno-color),var(--primer-color)); */
 }
 
+.container__imagen__banner{
+    padding: 0 10%;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+
+    /* border-top: 2px solid #000000;
+     padding-bottom: 1.5rem; */
+    /* border-bottom: 2px solid #000000; */
+
+    background: black;
+    background-size: cover;
+}
+
 .imagen__banner {
+    position: relative;
     height: calc(100vh - 150px);
     width: 100%;
     background: url(../imagenes/portada.jpg) no-repeat center/cover ;
 }
 
 .imagen__banner--estilo{
-    border-top: 2px solid #000000;
-    padding-bottom: 1.5rem;
+    /* border-top: 2px solid #000000;
+    padding-bottom: 1.5rem; */
 }
 
 

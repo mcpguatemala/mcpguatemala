@@ -1,0 +1,7 @@
+.imagen__banner--recursos{
+    background: url(../imagenes/galeria/fin_veterinaria.jpg)
+    no-repeat
+    center/cover;
+    height: calc(100vh - 158px);
+    width: 100%;
+}
