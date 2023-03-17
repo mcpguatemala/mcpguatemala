@@ -1,16 +1,6 @@
 .header {
-    /* background: linear-gradient( -45deg, 
-            var(--primer-color),
-            var(--segundo-color),
-            var(--tercer-color)
-        ); */
-
     background: url(../imagenes/cielo_lineas2.jpg);
-    
     background-position-y: 930px;
-
-    /* background-image: url(../imagenes/azul_pintura.jpg); */
-
     padding: 10px 0;
 }
 

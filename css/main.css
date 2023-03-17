@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;;
-    background: var(--background-fondo-uno);
+    background: var(--background-fondo-uno) no-repeat center/cover;
 }
 
 .main {
@@ -8,7 +8,7 @@ body{
         var(--primer-color),
         var(--segundo-color),
         var(--tercer-color),
-
+        
         var(--extra-cuatro-color),
         var(--extra-tres-color),
         var(--primer-color),
@@ -18,7 +18,6 @@ body{
     background: var(--extra-cuatro-color);
     background: url(../imagenes/cielo_algodon.jpg) no-repeat center/cover ;
 
-    
     /* background:  linear-gradient(var(--background-fondo-uno),var(--extra-uno-color)); */
     /* background: linear-gradient(var(--extra-uno-color),var(--primer-color)); */
 }
@@ -28,10 +27,6 @@ body{
     justify-content: center;
     text-align: right;
     align-items: center;
-
-    /* border-top: 2px solid #000000;
-     padding-bottom: 1.5rem; */
-    /* border-bottom: 2px solid #000000; */
 
     background: black;
     background-size: cover;
@@ -170,6 +165,64 @@ body{
 .contacto__boton:hover {
     color: var(--boton-hover);
     border-color: var(--boton-hover);
+}
+
+.institucional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: black;
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.institucional__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.institucional__contenido{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.institucional__descripcion {
+    margin-bottom: 2rem;
+}
+
+.institucional__direccion {
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.institucional__contacto {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+}
+
+.institucional__contacto-telefono {
+    line-height: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.institucional__contacto-email {
+    color: black;
+    text-decoration: underline;
+    display: block;
+}
+
+.institucional_video__mcp__intro{
+    display: flex;
 }
 
 @media screen and (max-width: 600px) {

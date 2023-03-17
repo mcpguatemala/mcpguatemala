@@ -12,7 +12,7 @@
 }
 
 .logoMcp__imagen-significado{
-    width: 75%;
+    width: 65%;
     min-width: 300px;
 }
 
@@ -41,6 +41,10 @@
     .imagen__banner--acercaDe {
         width: 100%;
         height: calc(100vh - 400px);
+    }
+    .logoMcp__imagen-significado{
+        width: 75%;
+        min-width: 300px;
     }
 }
 
