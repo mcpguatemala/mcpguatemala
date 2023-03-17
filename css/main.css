@@ -174,9 +174,11 @@ body{
 
     color: black;
     text-align: center;
+    justify-content: center;
 
     padding-top: 2rem;
     padding-bottom: 3.5rem;
+
 }
 
 .institucional__titulo {
@@ -186,9 +188,15 @@ body{
 
 .institucional__contenido{
     width: 80%;
+    min-height: 400px;
     display: flex;
     justify-content: space-between;
-    text-align: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.institucional__informaciones{
+    width: 40%;
 }
 
 .institucional__descripcion {
@@ -221,25 +229,64 @@ body{
     display: block;
 }
 
-.institucional_video__mcp__intro{
+.institucional__video__mcp{
     display: flex;
+    width: 50%;
+    max-height: 315px;
 }
 
-@media screen and (max-width: 600px) {
+.institucional__video__mcp__frame{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
     .imagen__banner, .imagen__banner--acercaDe {
         width: 100%;
         height: calc(100vh - 400px);
     }
+
+    .institucional {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .institucional__contenido{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .institucional__descripcion, .institucional__direccion{
+        text-align: center;
+    }
+
+    .institucional__informaciones{
+        width: 100%;
+    }
+
+    .institucional__video__mcp{
+        display: flex;
+        width: 100%;
+        min-height: 315px;  
+        max-width: 70%;
+    }
+
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .imagen__banner, .imagen__banner--acercaDe {
         width: 100%;
         height: calc(100vh - 500px);
     }
+
+    .institucional__video__mcp{
+        min-height: 315px;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 
     .main{
         padding: 0;
@@ -257,4 +304,13 @@ body{
         grid-area: descripcion;
         text-align: justify;
     }
+
+    .institucional__contacto-email {
+        font-size: 1.1rem;
+    }
+
+    .institucional__video__mcp{
+        min-height: 215px;
+    }
+
 }
