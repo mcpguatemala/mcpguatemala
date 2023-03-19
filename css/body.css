@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;;
+    background: var(--background-fondo-uno) no-repeat center/cover;
+}
+
+.container__imagen__banner{
+    padding: 0 10%;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+
+    background: black;
+    background-size: cover;
+}
+
+.main {
+    background: var(--extra-cuatro-color);
+    background: url(../imagenes/cielo_algodon.jpg) no-repeat center/cover ;
+}
+
+/* 768 px ---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* 430 px ---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 430px) {
+    /*  */
+}
+
+/* 320 px ---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+
+    .main{
+        padding: 0;
+    }
+
+}

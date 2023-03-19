@@ -23,7 +23,7 @@
 .header__nav {
     display: flex;
     flex-wrap: wrap;
-    
+    padding: 0.5rem 0;
     margin-right: 2rem;
 }
 

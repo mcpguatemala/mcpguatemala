@@ -1,12 +1,18 @@
-.imagen__banner--recursos{
-    background: url(../imagenes/galeria/fin_veterinaria.jpg)
-    no-repeat
-    center/cover;
-    
+
+.imagen__banner--index {
+    background: url(../../imagenes/portada.jpg) no-repeat center/cover ;
+
     height: calc(44vw);
     max-height: calc(100vh - 158px);
     min-height: calc(100vh - 480px);
+    position: relative;
     width: 100%;
+    
+}
+
+.imagen__banner--estilo{
+    /* border-top: 2px solid #000000;
+    padding-bottom: 1.5rem; */
 }
 
 /* 768 px ---------------------------------------------------------------------------- */

@@ -1,0 +1,23 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.contacto__descripcion{
+    text-align: center;
+}
+
+.contacto__boton {
+    color: var(--boton-estilo);
+    border-color: var(--boton-estilo);
+    margin-top: 1.25rem;
+    text-decoration: none;
+}
+
+.contacto__boton:hover {
+    color: var(--boton-hover);
+    border-color: var(--boton-hover);
+}

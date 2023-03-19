@@ -1,0 +1,102 @@
+/* areas / de trabajo MCP */
+
+.areas__container{
+    padding-bottom: 1rem;
+}
+
+.areas__imagen__uno {
+    background: url(../../imagenes/galeria/fin_usac_xela.jpg) no-repeat center/cover;
+}
+
+.areas__imagen__dos {
+    background: url(../../imagenes/galeria/aniversario_reformita.jpg) no-repeat center/cover;
+}
+
+.areas__imagen__tres {
+    background: url(../../imagenes/galeria/comunidad.jpg) no-repeat center/cover;
+}
+
+.areas__item .alinear-textos{
+    text-align: center;
+}
+
+/* Actividades */
+
+.actividades {
+    padding-bottom: 2rem;
+}
+
+.actividades__container, .areas__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actividades__descripcion {
+    text-align: center;
+}
+
+/*  tambien estan areas container (seccion anterior) */
+
+.actividades__item, .areas__item {
+    width: 30%;
+    min-width: 320px;
+
+    justify-content: space-around;
+    margin: 1rem 0;
+    
+    display: grid;
+    grid-template-areas:
+    "titulo"
+    "imagen"
+    "descripcion";
+    grid-template-columns: auto;
+    grid-template-rows: 80px 210px 100px;
+    text-align: center;
+}
+
+.actividades__item__titulo, .areas__item__titulo {
+    grid-area: titulo;
+    padding: 0 1rem;
+}
+
+.actividades__item__imagenes, .areas__item__imagenes {
+    grid-area: imagen;
+    width: 100%;
+    height: 200px;
+}
+
+.actividades__imagen__uno {
+    background: url(../../imagenes/virtual.jpeg) no-repeat center/cover;
+}
+
+.actividades__imagen__dos {
+    background: url(../../imagenes/galeria/iglesia_ciudadreal.jpg) no-repeat center/cover;
+}
+
+.actividades__imagen__tres {
+    background: url(../../imagenes/galeria/fin_usac_uno.jpg) no-repeat center/cover;
+}
+
+.actividades__item__descripcion, .areas__item__descripcion {
+    width: 320px;
+    grid-area: descripcion;
+    text-align: justify;
+}
+
+@media screen and (max-width: 320px) {
+
+    .actividades__item, .areas__item {
+        min-width: 280px;
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .actividades__item__descripcion, .areas__item__descripcion {
+        width: 300px;
+        grid-area: descripcion;
+        text-align: justify;
+    }
+    
+}

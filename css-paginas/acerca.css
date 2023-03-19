@@ -2,7 +2,9 @@
     background: url(../imagenes/galeria/fin_usac.jpg)
     no-repeat
     center/cover;
-    height: calc(100vh - 158px);
+    height: calc(44vw);
+    max-height: calc(100vh - 158px);
+    min-height: calc(100vh - 480px);
     width: 100%;
 }
 
@@ -12,8 +14,9 @@
 }
 
 .logoMcp__imagen-significado{
-    width: 65%;
+    width: 90vw;
     min-width: 300px;
+    max-width: 920px;
 }
 
 /* MCP */
@@ -37,28 +40,23 @@
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    .imagen__banner--acercaDe {
-        width: 100%;
-        height: calc(100vh - 400px);
-    }
-    .logoMcp__imagen-significado{
-        width: 75%;
-        min-width: 300px;
-    }
+/* 768 px ---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
 }
 
-@media screen and (max-width: 400px) {
-    .imagen__banner--acercaDe {
-        width: 100%;
-        height: calc(100vh - 500px);
-    }
-}
+/* 430 px ---------------------------------------------------------------------------- */
 
-@media screen and (max-width: 375px) {
-
+@media screen and (max-width: 430px) {
+   
     .main{
         padding: 0;
     }
+}
+
+/* 320 px ---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
 
 }
