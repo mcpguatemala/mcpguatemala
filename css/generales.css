@@ -39,7 +39,8 @@
 
 /* - Fuente */
     --fuente-ceniza-claro: #666666;
-    --fuente-ceniza-oscuro: #4F4C4C;
+    --fuente-ceniza-medio: #4F4C4C;
+    --fuente-ceniza-oscuro: #2e2d2d;
 
 /* - Planes */
     --planes-card-start: #035A76;
@@ -67,7 +68,7 @@
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     align-items: center;
     font-family: var(--merriweather);
 }
@@ -82,6 +83,10 @@
 .container {
     padding: 0 2rem;
     /* usar solo para los que no tienen flex */
+}
+
+.container__espaciado{
+    padding: 2rem;
 }
 
 .texto-parrafo{
