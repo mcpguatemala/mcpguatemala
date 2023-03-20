@@ -2,9 +2,9 @@
 .imagen__banner--index {
     background: url(../../imagenes/portada.jpg) no-repeat center/cover ;
 
-    height: calc(44vw);
+    height: 44vw;
+    min-height: calc(50vw - 380px);
     max-height: calc(100vh - 158px);
-    min-height: calc(100vh - 480px);
     position: relative;
     width: 100%;
     
