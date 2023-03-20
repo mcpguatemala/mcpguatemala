@@ -2,8 +2,8 @@
 .imagen__banner--index {
     background: url(../../imagenes/portada.jpg) no-repeat center/cover ;
 
-    height: 50vw;
-    min-height: calc(50vw - 380px);
+    height: 45vw;
+    min-height: calc(75vh - 380px);
     max-height: calc(100vh - 158px);
     position: relative;
     width: 100%;
@@ -13,6 +13,13 @@
 .imagen__banner--estilo{
     /* border-top: 2px solid #000000;
     padding-bottom: 1.5rem; */
+}
+
+@media (orientation: landscape) {
+    .imagen__banner--index{
+        min-height: calc(50vw - 380px);
+        max-height: calc(100vw - 400px);
+    }
 }
 
 /* 768 px ---------------------------------------------------------------------------- */
