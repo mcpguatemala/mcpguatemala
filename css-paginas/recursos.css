@@ -44,8 +44,44 @@
 
 .recursos__tabla__uno a:hover{
     text-decoration: underline;
-    color: rgb(95, 82, 150);
+    color: rgb(69, 50, 154);
 }
+
+.calendarizacionMcp__documento__limit{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendarizacionMcp__documento{
+    border: 0.1rem;
+    border-style: solid;
+    border-color: rgb(29, 28, 28);
+
+    color: rgb(45, 45, 161);
+    font-size: calc(4vw + 1rem);
+    margin-top: 1.5rem;
+    width: 60vw;
+}
+
+.calendarizacion__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendarizacion__documentos{
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+
+.calendarizacion__documento__uno{
+    max-width: 920px;
+    width: 80vw;
+    height: 102vw;
+    max-height: 1050px;
+}
+
 
 
 /* 768 px ---------------------------------------------------------------------------- */
